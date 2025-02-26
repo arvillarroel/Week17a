@@ -12,7 +12,7 @@ inputs:
     default: gini
   max_depth:
     type: integer
-    default: 5
+    default: 1
 outputs:
   model_output:
     type: mlflow_model
